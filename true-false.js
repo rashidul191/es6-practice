@@ -81,25 +81,26 @@
 //    constructor()
 // }
 
-const student = [
-  {
-    name: "Rashidul",
-    id: 371,
-    cgpa: 2.97,
-  },
-  {
-    name: "Rased",
-    id: 381,
-    cgpa: 3.04,
-  },
-  {
-    name: "Khan",
-    id: 391,
-    cgpa: 3.5,
-  },
-];
+// const student = [
+//   {
+//     name: "Rashidul",
+//     id: 371,
+//     cgpa: 2.97,
+//   },
+//   {
+//     name: "Rased",
+//     id: 381,
+//     cgpa: 3.04,
+//   },
+//   {
+//     name: "Khan",
+//     id: 391,
+//     cgpa: 3.5,
+//   },
+// ];
 
-const idS = student.map(value => value.cgpa)
-const bigestStudent = student.filter(s => s.cgpa> 3)
-const findAStudent = student.find(s => s.id > 371)
-console.log(findAStudent)
+// const idS = student.map(value => value.cgpa)
+// const bigestStudent = student.filter(s => s.cgpa> 3)
+// const findAStudent = student.find(s => s.id > 371)
+// console.log(findAStudent)
+
